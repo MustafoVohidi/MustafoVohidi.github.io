@@ -1,82 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/utils.css">
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Teko&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
 </head>
+
 <body>
-
-    <!-- top-panel -->
-    <div class="top-panel">
-        <div class="container height-100">
-            <div class="row-top-panel height-100">
-                    <div class="top-panel__notification">
-                   Отчет по лабораторным работам создан с использованием HTML CSS JS
-                    </div>
-                    <div class="top-panel__icons">
-                        <a href="#" class="top-panel__link">
-                            <img src="image/icons/user.png" alt="user">
-                        </a>
-                        
-                        <a href="#" class="top-panel__link">
-                            <img src="image/icons/search.png" alt="search">
-                        </a>
-                        
-                        <a href="#" class="top-panel__link">
-                            <img src="image/icons/cart.png" alt="cart">
-                        </a>
-                        
-                    </div>
-            </div>
-        </div>
-        
+    <div class="position-bar">
+        <div class="nav__0 bar"></div>
+        <div class="nav__1 bar"></div>
+        <div class="nav__2 bar"></div>
     </div>
-    <!-- top-panel -->
 
-<!-- HEADER -->
-    <header class="header">
-        <div class="container">
 
-            <!-- header nav row -->
-            <div class="header__nav-row">
-                <div class="header___logo">
-                    <img src="image/icons/Group 352.svg" alt="logo-Two wheels freaks">
+    <div class="container">
+        <div class="first-slider">
+
+            
+            <div class="slide_1 slide">
+
+                <div class="slide_1__headline headline">
+                    Всегда ли цели терапии СД2 на поверхности?
                 </div>
-                <nav class="header__nav">
-                    <a class="header__nav-link header__nav-link--active" href="#">HOME</a>
-                    <a class="header__nav-link" href="#">PORTFOLIO</a>
-                    <a class="header__nav-link" href="#">LAB1</a>
-                    <a class="header__nav-link" href="#">LAB2</a>
-                    <a class="header__nav-link" href="#">LAB3</a>
-                </nav>
-                
-                <a href="#" class="header__button">
-                    DOWNLOAD NOW
-                </a>
 
-                
+                <div class="pulse-1 pulse">
+                    <div class="pulse-1__text pulse__text">Цель по HbA1c</div>
+
+                    <div class="pulse-1__wrap wrap">
+                        <div class="pulse-1__circle circle"></div>
+                    </div>
+                </div>
+
+                <div class="pulse-2 pulse">
+                    <div class="pulse-2__wrap wrap">
+                        <div class="pulse-2__circle circle"></div>
+                    </div>
+                    <div class="pulse-2__text pulse__text">Гипогликемия</div>
+                </div>
+
+                <div class="pulse-3 pulse">
+                    <div class="pulse-3__wrap wrap">
+                        <div class="pulse-3__circle circle"></div>
+                    </div>
+                    <div class="pulse-3__text pulse__text">Осложнения СД</div>
+                </div>
+
+                <div class="pulse-4 pulse">
+                    <div class="pulse-4__wrap wrap">
+                        <div class="pulse-4__circle circle"></div>
+                    </div>
+                    <div class="pulse-4__text pulse__text">СС риски</div>
+                </div>
 
             </div>
-            <!-- header nav row -->
-           
-            <div class="header__promo">
-                <div class="header__title"> Вохиди Мустафо группа ИДМ-19-02</div>
-                   
-                
-                <a href="#" class="header__promo-btn">ОТЧЕТ</a>
-                    
-                
 
-            </div>
+
         </div>
-    </header>
-<!-- HEADER -->
+        <div class="second-slider">
+            <div class="slide_2__headline headline">
+                Основа терапии — патогенез СД2
+        </div>
+        </div>
+        <div class="last-slider">
+            <div class="levels">
+                <img id="levthree" height="650px" class="animated rubb1erBand hidden" src="./img/slide33.png" alt="">
+                <img id="levtwo" height="650px" class="animated rubber1Band hidden" src="./img/slide32.png" alt="">
+                <img id="levone" height="650px" class="animated rubber1Band  " src="./img/slide31.png" alt="">
+
+                <div class="slidecontainer">
+                    <input type="range" min="1" value="1" max="100" class="slider" id="myRange">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="scroll-down" id="scroll-down"></div>
+
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/nav.js"></script>
 </body>
+
 </html>
