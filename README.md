@@ -1,2 +1,2 @@
 # MustafoVohidi.github.io
-[Live Demo](https://MustafoVohidi.github.io)
+[Demo](https://MustafoVohidi.github.io)
