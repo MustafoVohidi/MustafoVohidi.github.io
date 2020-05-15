@@ -4,86 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <title>Onpoint</title>
 </head>
 
 <body>
-    <div class="position-bar">
-        <div class="nav__0 bar"></div>
-        <div class="nav__1 bar"></div>
-        <div class="nav__2 bar"></div>
-    </div>
+    <div class="app">
+        <div class="position-bar">
+            <div class="nav0 bar"></div>
+            <div class="nav1 bar"></div>
+            <div class="nav2 bar"></div>
+        </div>
 
+        <div class="content">
+            <div class="slide-wrapper">
+                <div id="1" class="slide1 slide">
+                    <div class="slide_1__headline headline">
+                        Всегда ли цели терапии СД2 на поверхности?
+                    </div>
 
-    <div class="container">
-        <div class="first-slider">
+                    <div class="pulse-1 pulse">
+                        <div class="pulse-1__wrap wrap">
+                            <div class="pulse-1__circle circle"></div>
+                        </div>
+                        <div class="pulse-1__text pulse__text">Цель по HbA1c</div>
+                    </div>
 
-            
-            <div class="slide_1 slide">
+                    <div class="pulse-2 pulse">
+                        <div class="pulse-2__wrap wrap">
+                            <div class="pulse-2__circle circle"></div>
+                        </div>
+                        <div class="pulse-2__text pulse__text">Гипогликемия</div>
+                    </div>
 
-                <div class="slide_1__headline headline">
-                    Всегда ли цели терапии СД2 на поверхности?
+                    <div class="pulse-3 pulse">
+                        <div class="pulse-3__wrap wrap">
+                            <div class="pulse-3__circle circle"></div>
+                        </div>
+                        <div class="pulse-3__text pulse__text">Осложнения СД</div>
+                    </div>
+
+                    <div class="pulse-4 pulse">
+                        <div class="pulse-4__wrap wrap">
+                            <div class="pulse-4__circle circle"></div>
+                        </div>
+                        <div class="pulse-4__text pulse__text">СС риски</div>
+                    </div>
+
                 </div>
-
-                <div class="pulse-1 pulse">
-                    <div class="pulse-1__text pulse__text">Цель по HbA1c</div>
-
-                    <div class="pulse-1__wrap wrap">
-                        <div class="pulse-1__circle circle"></div>
+                <div id="2" class="slide2 slide">
+                    <div class="slide_2__headline headline">
+                        Основа терапии — патогенез СД2
                     </div>
                 </div>
-
-                <div class="pulse-2 pulse">
-                    <div class="pulse-2__wrap wrap">
-                        <div class="pulse-2__circle circle"></div>
-                    </div>
-                    <div class="pulse-2__text pulse__text">Гипогликемия</div>
-                </div>
-
-                <div class="pulse-3 pulse">
-                    <div class="pulse-3__wrap wrap">
-                        <div class="pulse-3__circle circle"></div>
-                    </div>
-                    <div class="pulse-3__text pulse__text">Осложнения СД</div>
-                </div>
-
-                <div class="pulse-4 pulse">
-                    <div class="pulse-4__wrap wrap">
-                        <div class="pulse-4__circle circle"></div>
-                    </div>
-                    <div class="pulse-4__text pulse__text">СС риски</div>
-                </div>
-
+                <div id="3" class="slide3 slide">
+                    <div class="levels">
+                        <img id="levthree" height="650px"  class="animated  hidden" src="./img/slide31.png" alt="">
+                        <img id="levtwo" height="630px" class="animated  hidden" src="./img/slide32.png" alt="">
+                        <img id="levone" height="650px" class="animated  " src="./img/slide33.png" alt="">
+        
+                        <div class="slidecontainer">
+                            <input type="range" min="-100" value="0" max="0" class="slider" id="myRange">
+        
+                        </div>
+                    </div>                </div>
             </div>
-
-
-        </div>
-        <div class="second-slider">
-            <div class="slide_2__headline headline">
-                Основа терапии — патогенез СД2
-        </div>
-        </div>
-        <div class="last-slider">
-            <div class="levels">
-                <img id="levthree" height="650px" class="animated rubb1erBand hidden" src="./img/slide33.png" alt="">
-                <img id="levtwo" height="650px" class="animated rubber1Band hidden" src="./img/slide32.png" alt="">
-                <img id="levone" height="650px" class="animated rubber1Band  " src="./img/slide31.png" alt="">
-
-                <div class="slidecontainer">
-                    <input type="range" min="1" value="1" max="100" class="slider" id="myRange">
-
-                </div>
-            </div>
+            <div class="scroll-down" id="scroll-down"></div>
 
         </div>
-        <div class="scroll-down" id="scroll-down"></div>
-
     </div>
-    <script src="js/index.js"></script>
-    <script src="js/nav.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
